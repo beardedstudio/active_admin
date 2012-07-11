@@ -24,8 +24,7 @@ $(function(){
       items: 'fieldset',
       update: function(event, ui) {
         reindexSort($hasMany, inputName);
-      },
-      cancel: '.remove-button'
+      }
     });
   });
 });
